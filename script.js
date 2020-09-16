@@ -8,7 +8,7 @@ const interval = setInterval(() => {
 
   var days = Math.floor(diff / (60 * 60 * 24)) + "";
 
-  var hours = (Math.floor(diff / (60 * 60)) % 24) + " a";
+  var hours = (Math.floor(diff / (60 * 60)) % 24) + "";
 
   var minutes = (Math.floor(diff / 60) % 60) + "";
 

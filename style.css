@@ -19,11 +19,11 @@ html {
   right: 0;
   background-color: black;
   color: white;
-  font-size: 1rem;
+  font-size: 2rem;
   border: 1px solid white;
-  margin: 1rem;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 2.5rem;
   z-index: 2;
   cursor: pointer;
 }
@@ -44,9 +44,10 @@ html {
 }
 
 .countdown-wrapper h1 {
-  font-size: 5rem;
-  text-shadow: 5px 5px 15px white;
-  margin-bottom: 2rem;
+  font-size: 10rem;
+  letter-spacing: 1rem;
+  text-shadow: 0px 0px 15px rgb(185, 185, 185);
+  margin-bottom: 3rem;
 }
 
 .countdown {
@@ -56,9 +57,9 @@ html {
 }
 
 .countdown div {
-  width: 10rem;
-  height: 10rem;
-  font-size: 3rem;
+  width: 20rem;
+  height: 12rem;
+  font-size: 6rem;
   text-shadow: 0px 0px 15px white;
   display: flex;
   align-items: center;
@@ -67,15 +68,17 @@ html {
 
 .countdown div::after {
   content: attr(data-content);
-  font-size: 1rem;
-  padding-top: 1.2rem;
-  padding-left: 0.5rem;
+  font-size: 2rem;
+  padding-top: 2.2rem;
+  padding-left: 1.5rem;
 }
 
 .reset {
-  width: 4rem;
-  height: 3rem;
-  border-radius: 0.5rem;
+  margin-top: 5rem;
+  width: 10rem;
+  height: 5rem;
+  font-size: 3rem;
+  border-radius: 1.5rem;
   border: 1px solid white;
   box-shadow: 0px 0px 5px white;
   background-color: black;
