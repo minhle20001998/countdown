@@ -24,7 +24,7 @@ html {
   margin: 2rem;
   padding: 1.5rem;
   border-radius: 2.5rem;
-  z-index: 2;
+  z-index: 3;
   cursor: pointer;
 }
 
